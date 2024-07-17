@@ -1,0 +1,25 @@
+.div3{
+    color: black;
+    background-color: chartreuse;
+}
+
+
+
+.rgb{
+    background-color: deeppink;
+}
+
+#Name{
+    color: blanchedalmond;
+}
+
+div{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+
+
+*{ 
+   background-color:skyblue;
+ } 

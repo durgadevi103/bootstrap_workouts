@@ -1,0 +1,43 @@
+.grid-container{
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,200px);
+    grid-template-areas: 
+    "one one one one"
+    "two three three four "
+    "five three three six"
+    "five seven seven seven";
+
+    
+    /* gap: 30px; */
+    /* row-gap: ; */
+    /* column-gap: ; */
+} 
+#one{
+    grid-area: one;
+    background-color: bisque;
+}
+#two{
+    grid-area: two;
+    background-color: red;
+}
+#three{
+    grid-area: three;
+    background-color: bisque;
+}
+#four{
+    grid-area: four;
+    background-color: red;
+}
+#five{
+    grid-area: five;
+    background-color: bisque;
+}
+#six{
+    grid-area: six;
+    background-color: red;
+}
+#seven{
+    grid-area: seven;
+    background-color: bisque;
+}
+

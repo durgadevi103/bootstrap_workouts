@@ -1,0 +1,364 @@
+
+#star{
+    color: rgb(255,193,7);
+}
+
+.addre{
+    border: 1px solid rgb(26,144,130);
+    padding: 20px 10px 10px;
+    margin: 30px 20px;
+    background-color:rgb(26,144,130) ;
+    /* box-shadow: 10px 10px 40px gainsboro; */
+}
+
+.link{
+    text-decoration: none;
+    color: aliceblue;
+}
+.address{
+    margin-top: -40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.addres{
+    margin-top: -20px;
+    padding-left: 50px;
+    font-size: 13px;
+}
+
+#icons{
+    margin-top: 50px;
+
+}
+
+#tension{
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+#shadowcard{
+    box-shadow: 10px 10px 30px 0px gainsboro;
+
+
+}
+
+#tension{
+    filter: blur(10px);
+    filter: opacity(0.9);
+}
+
+#llink{
+    color: #008374;
+    position: absolute;
+    margin: -13px 0px 200px -0px;
+}
+
+.pics{
+    position: relative;
+    margin-top: -200px;
+    /* filter: brightness(90%); */
+    width: 1000px;
+    height: 500px;
+}
+
+/* button:hover{
+    background-color: rgb(0,131,116);
+} */
+
+
+
+#ga{
+    opacity: 0.4;
+}
+
+
+#gap{
+    color: #008374;
+}
+
+#gaps{
+    color: #0c0c0c;
+    opacity: 0.4;
+}
+
+
+#pwd{
+    background-color: #008374;
+    padding: 25px 30px;
+    border-radius: 50px;
+}
+
+/* 
+input:hover{
+    background-color: rgb(0,131,116);
+
+} */
+
+.line::after{
+    content: '';
+    display: block;
+    bottom: -10px;
+    width: 65px;
+    height: 4px;
+    background-color: #008174;
+    /* padding: 10px; */
+    position: relative;
+    margin: 15px auto;
+
+}
+
+
+#cir{
+    font-size: 30px;
+     color:rgb(143,205,199);
+     /* padding: 30px; */
+     /* margin-bottom: 30px; */
+     
+    
+}
+
+
+
+#cir:hover{
+    color: white;
+}
+
+#dd:hover{
+    border: white;
+
+}
+
+
+#nav{
+    font-weight: 500;
+}
+
+
+
+#accordionFlushExample{
+    border: 20px;
+}
+
+
+
+#sas{
+    background: url(https://bootstrapmade.com/demo/templates/Impact/assets/img/cta-bg.jpg);
+    height: 500px;
+    border-radius: 20px;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    filter: brightness(0.5);
+    top: 0;
+    left: 0;
+    border-color: rgb(0,0,0,0.1);
+}
+
+/* #sasa{
+    color: white;
+    
+} */
+
+.box{
+    border-radius: 10px;
+    background-color: #008374;
+    height: 240px;
+    width: 315px;
+    margin-top: -170px;
+    margin-bottom: 100px;
+}
+
+
+
+#clr{
+    color: rgb(143,205,199);
+}
+
+
+
+
+#twit{
+    color: rgb(143,205,199);
+  
+}
+
+#d{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+    
+}
+
+
+#u{
+    color: rgb(204,230,227);
+}
+
+
+
+
+#bi{
+
+    color: rgb(204,230,227);
+
+}
+
+#r{
+    color: rgb(149,145,145);
+}
+
+
+#g{
+    text-decoration: none;
+}
+
+
+#a{
+    /* padding: 60px ; */
+    margin: 170px 270px;
+    /* color: #008374; */
+    position: absolute;
+    
+    
+}
+
+.btn{
+    /* font-size: 50px; */
+}
+
+
+#dur{
+    font-size: 30px;
+}
+
+
+.card{
+    box-shadow: 10px 10px 10px rgb(243,244,244);
+    border-radius: 20px;
+    border: white;
+}
+
+
+
+.card-img-top{
+    /* width: 300px; */
+    /* -ms-zoom: 20px; */
+    
+}
+
+
+
+.link{
+    font-size: 14px;
+    color: rgb(179,215,204)
+}
+
+.link:hover{
+    color: white;
+}
+
+
+
+#durga{
+
+
+    color: rgb(128,193,186);
+    border: 1px solid rgb(128,193,186);
+    padding: 13px 15px;
+    border-radius: 30px;
+}
+
+/* input{
+     color: rgb(238,237,238)
+} */
+
+
+#submit{
+    color: white;
+    
+}
+
+ /* #date{
+    padding: 30px;
+    
+}  */
+
+#hov:hover{
+    background-color: rgb(0,131,116);
+
+    
+}
+
+
+#durgaa{
+    color: rgb(167,167,167);
+    border: 1px solid rgb(167,167,167);
+    padding: 8px 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

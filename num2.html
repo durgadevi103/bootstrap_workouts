@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let x = 100
+    let y = new Number(100)
+    let z = new Number(100)
+    let a = z
+
+
+    console.log(x == y);  
+    // true-values are compared
+    console.log(x === y); 
+    // false - values and types are compared
+
+
+
+    console.log( y == z);  
+    // two objects are compared (types are different) == so false
+    console.log(y === z);
+    // two objects are compared (types are different) === so false
+
+    console.log(a == z);
+    
+
+
+
+
+    console.log(a === z);
+
+
+
+
+
+</script>
+</html>

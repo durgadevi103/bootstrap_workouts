@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS POSITION AND OUTLINE</title>
+    <style>
+        div.static{
+            position:static;
+            border:3px solid red;
+        }
+
+        div.sticky{
+            position:sticky;
+            top: 20px;
+            padding: 5px;
+            background-color: aqua;
+            border: 2px solid blue;
+        }
+        div.fixed{
+            position:fixed;
+            bottom: 0;
+            right:0;
+            width: 300px;
+            border: 3px solid palevioletred;
+        }
+        div.relative{
+            position: relative;
+            width: 400px;
+            height: 200px;
+            left: 300px;
+            border: 3px solid green;
+        }
+        div.absolute{
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            left: 100px;
+            border: 3px solid red;
+            background-color: aquamarine;
+
+        }
+
+        span{
+            outline: 4px solid black;
+            outline-offset: 3px;
+            border: 5px solid red; 
+        }
+        h3{
+            outline: 4px solid black;
+            outline-offset: 3px;
+            border: 5px solid red;
+
+        }
+        .myDiv{
+            width:100px;
+            position:absolute;
+            height: 100px;
+            background-color: azure;
+        }
+        .myDiv div{
+            width:100px;
+
+            position:absolute;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            opacity: 1;
+
+        }
+        .myBox{
+            position:absolute;
+            background-color: red !important;
+            opacity: 1 !important;
+            z-index: 4;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>The z-index property</h1>
+    <div class="myDiv">
+        <div class="myBox">myBox</div>
+        <div style="top:20px;left:20px;z-index:0;">z-index 0</div>
+        <div style="top:40px;left:40px;z-index:1;">z-index1 </div>
+        <div style="top:60px;left:60px;z-index:2;">z-index2</div>
+        <div style="top:80px;left:80px;z-index:3;">z-index3 </div>
+    </div>
+    <br><br><br>
+    <span>OUTLINE PROPERTY</span>
+    <h3>OUTLINE PROPERTY</h3>
+    <div class="fixed"> This elements is fixed</div>
+    <h1>CSS POSITION</h1>
+    <h2>position</h2>
+    <ul>
+        <li>static</li>
+        <li>sticky</li>
+        <li>fixed</li>
+        <li>relative</li>
+        <li>absolute</li>
+
+    </ul>
+    <div class="static">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quia nam excepturi. Quos, officia. Maiores temporibus iusto ex harum doloribus voluptate sunt explicabo perferendis, vero repellat mollitia blanditiis et dignissimos repudiandae possimus neque laudantium iure adipisci libero. Magni, laboriosam voluptatibus voluptates pariatur amet eveniet praesentium, facere dolor temporibus accusamus provident?
+    </div>
+    <div class="sticky">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptates minus commodi praesentium accusantium, deleniti mollitia? Numquam delectus veniam reiciendis nobis fuga, earum sequi quidem similique id praesentium ex ea?</div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A saepe nobis dolorem repellat id! Ipsam omnis accusantium enim blanditiis ducimus, sapiente officia ea, culpa eligendi at doloremque veniam magnam dicta facere laudantium qui corrupti quaerat officiis commodi accusamus ex, harum eaque! Repellendus maxime adipisci, vero ea consectetur saepe maiores repudiandae quas harum cum ex recusandae animi, nihil voluptates. Soluta, ducimus asperiores dolor nihil, dolorem recusandae eveniet est facere odit quis, in delectus vel consectetur voluptates eum cumque. Omnis vel fugiat eum sint distinctio aspernatur in, temporibus perspiciatis neque sit eveniet deserunt fugit eaque autem hic porro, repellendus, assumenda expedita magnam.</p>
+    <h1>CSS POSITION</h1>
+    <h2>position</h2>
+    <ul>
+        <li>static</li>
+        <li>sticky</li>
+        <li>fixed</li>
+        <li>relative</li>
+        <li>absolute</li>
+
+    </ul>
+    <div >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quia nam excepturi. Quos, officia. Maiores temporibus iusto ex harum doloribus voluptate sunt explicabo perferendis, vero repellat mollitia blanditiis et dignissimos repudiandae possimus neque laudantium iure adipisci libero. Magni, laboriosam voluptatibus voluptates pariatur amet eveniet praesentium, facere dolor temporibus accusamus provident?
+    </div>
+    <div >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptates minus commodi praesentium accusantium, deleniti mollitia? Numquam delectus veniam reiciendis nobis fuga, earum sequi quidem similique id praesentium ex ea?</div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A saepe nobis dolorem repellat id! Ipsam omnis accusantium enim blanditiis ducimus, sapiente officia ea, culpa eligendi at doloremque veniam magnam dicta facere laudantium qui corrupti quaerat officiis commodi accusamus ex, harum eaque! Repellendus maxime adipisci, vero ea consectetur saepe maiores repudiandae quas harum cum ex recusandae animi, nihil voluptates. Soluta, ducimus asperiores dolor nihil, dolorem recusandae eveniet est facere odit quis, in delectus vel consectetur voluptates eum cumque. Omnis vel fugiat eum sint distinctio aspernatur in, temporibus perspiciatis neque sit eveniet deserunt fugit eaque autem hic porro, repellendus, assumenda expedita magnam.</p>
+
+    <h1>CSS POSITION</h1>
+    <h2>position</h2>
+    <ul>
+        <li>static</li>
+        <li>sticky</li>
+        <li>fixed</li>
+        <li>relative</li>
+        <li>absolute</li>
+
+    </ul>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quia nam excepturi. Quos, officia. Maiores temporibus iusto ex harum doloribus voluptate sunt explicabo perferendis, vero repellat mollitia blanditiis et dignissimos repudiandae possimus neque laudantium iure adipisci libero. Magni, laboriosam voluptatibus voluptates pariatur amet eveniet praesentium, facere dolor temporibus accusamus provident?
+    </div>
+    <div >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptates minus commodi praesentium accusantium, deleniti mollitia? Numquam delectus veniam reiciendis nobis fuga, earum sequi quidem similique id praesentium ex ea?</div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A saepe nobis dolorem repellat id! Ipsam omnis accusantium enim blanditiis ducimus, sapiente officia ea, culpa eligendi at doloremque veniam magnam dicta facere laudantium qui corrupti quaerat officiis commodi accusamus ex, harum eaque! Repellendus maxime adipisci, vero ea consectetur saepe maiores repudiandae quas harum cum ex recusandae animi, nihil voluptates. Soluta, ducimus asperiores dolor nihil, dolorem recusandae eveniet est facere odit quis, in delectus vel consectetur voluptates eum cumque. Omnis vel fugiat eum sint distinctio aspernatur in, temporibus perspiciatis neque sit eveniet deserunt fugit eaque autem hic porro, repellendus, assumenda expedita magnam.</p>
+   
+    <div class="relative">
+        <!-- position relative is moving
+        but it cannot occupy its original position -->
+        this element is relative
+        <div class="absolute">
+            <!-- position absolute is also moving but other elements can occupy its original -->
+            this element is absolute
+        </div>
+        <div>HTML</div>
+   </div>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, accusamus.</p>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

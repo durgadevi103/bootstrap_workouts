@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>constructor</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function Student(name,age,dept,passout){
+        this.name = name
+        this.age = age
+        this.dept = dept
+        this.passout = passout
+    }
+    Student.prototype.section = "II"
+
+    
+    const p1 = new Student("selvam",22,"electronics",2024)
+    // const p2 = new Student("devi",21,"electrical",2024)
+    console.log(p1)
+    console.log(p1.section)
+</script>
+</html>

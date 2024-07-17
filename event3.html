@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event 3</title>
+</head>
+<body>
+    <form onsubmit="handleSubmit(event)">
+        <label for="username">
+            username
+            <input id="username" name="username" type="text">
+        </label><br>
+        <label for="password">
+            password
+            <input id="password" name="password" type="text">
+        </label><br>
+        <input type="submit" value="login">
+    </form>
+    
+</body>
+<script>
+    // let state = true
+    function handleSubmit(event){
+    //     alert("login successful")
+        event.preventDefault()
+    //     console.log(e.target)
+    //     if(state){
+    //         event.username.value = "admin"
+    //         event.password.value = "12345"
+    //         state = !state
+    //     }else{
+            
+    //     }
+        console.log(event.target.username.value)
+        console.log(event.target.password.value)
+        const username = event.target.username.value
+        const password = event.target.password.value
+        if(username === 'admin' && password === '12345'){
+
+            alert("login success")
+
+        }
+        else{
+            alert("login fail")
+        }
+    }
+
+    //   document.getElementById ithu kulla innerHTML PODANUM
+    // ONLY USE oninput
+    
+    // OR onchange
+
+
+    
+</script>
+</html>

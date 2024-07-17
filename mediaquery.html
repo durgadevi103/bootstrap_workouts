@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            display: grid;
+            background-color: red;
+            color: yellow;
+            margin: 10px;
+            border: 2px solid green;
+            justify-content: center;
+            
+            
+           
+        }
+
+        .items{
+            
+            border: 2px solid black;
+            text-align: center;
+            background-color: yellow;
+            margin: 5px;
+            padding: 30px;
+            height: 100px;
+            width: 100px;
+
+        }
+
+        /* @media screen and (min-width:768px)
+        /* min-width 768 below...the below style works */
+        /* {
+            .para{
+                display: none;
+            } 
+        }  */
+
+         @media screen and (max-width:768px)
+         /* max-width 768 above...the below style works 
+          */
+         {
+            .container{
+                display: none;
+            }
+        }  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">A</div>
+        <div class="items">B</div>
+        <div class="items">C</div>
+    </div>
+
+
+</body>
+</html>

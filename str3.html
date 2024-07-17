@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr><td><textarea oninput="textInput(event)"></textarea></td></tr>
+        <tr><td><div id="content"></div></td></tr>
+        <tr><td><input id="search-txt" type="text" placeholder="Search Text "></td></tr>
+        <tr><td><input id="replace-txt" type="text" placeholder="Replace Text"></td></tr>
+        <tr>
+            <td>
+                <input type="button" value="Replace" onclick="replace()">
+
+                <input type="button" value="replaceAll" onclick="replaceAll()">
+
+                <input type="button" value="toUpperCase" onclick="toUpperCase()">
+
+                <input type="button" value="toLowerCase" onclick="toLowerCase()">
+            </td>
+        </tr>
+    </table>
+
+
+    
+</body>
+<script>
+
+    function textInput(event){
+        document.getElementById("content").innerHTML = event.target.value
+    }
+
+    function toUpperCase(){
+        let txt = document.getElementById("content").innerHTML
+        document.getElementById("content").innerHTML = txt.toUpperCase()
+
+    }
+
+    function toLowerCase(){
+        let txt = document.getElementById("content").innerHTML
+        document.getElementById("content").innerHTML = txt.toLowerCase()
+
+    }
+
+    function replace(){
+        let searchTxt = document.getElementById("search-txt").value
+        let replaceTxt = document.getElementById("replace-txt").value
+        let txt = document.getElementById("content").innerHTML
+        let finalTxt = txt.replace(searchTxt , replaceTxt)
+        document.getElementById("content").innerHTML = finalTxt
+    }
+
+
+
+
+    function replaceAll(){
+        let searchTxt = document.getElementById("search-txt").value
+        let replaceTxt = document.getElementById("replace-txt").value
+        let txt = document.getElementById("content").innerHTML
+        let finalTxt = txt.replaceAll(searchTxt , replaceTxt)
+        document.getElementById("content").innerHTML = finalTxt
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>

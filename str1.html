@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string1</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const name1 = "durga" 
+    // normalstring
+    const name2 = "devi"
+    const name3 = new String("durga")
+    // string object
+    const name4 = new String("durga")
+    // when normal string are compared with == the data are compared
+    console.log(name1==name2);  
+    // false
+    // when normal string compared with string object with == the data is compared
+    console.log(name1==name3);
+    // true
+    // when normal string compared with string object with === the data  and the type are compared
+    console.log(name1===name3);
+    // false
+    // when the objects are compared with either == and === both objects are different indefinite of type 
+    console.log(name3==name4);
+    // false
+    console.log(name3===name4);
+    // false
+
+
+    const name5 = name3
+    console.log(name3==name5);
+    console.log(name3===name5);
+
+
+
+
+
+</script>
+</html>

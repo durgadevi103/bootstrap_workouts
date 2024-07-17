@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <style>
+         div p{
+            color: antiquewhite;
+            background-color: blue;
+            
+        } 
+           div > p{
+            background-color: aqua;
+         } 
+          div + p{
+            background-color: yellow;
+            color: black;
+          }
+
+          div ~ p{
+            background-color: yellowgreen;
+            color: azure;
+          }  
+
+          div{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            color: aqua;
+            font-weight: 700;
+            background-color: black;
+                    
+
+
+          }
+
+
+
+
+
+
+          
+
+    </style>
+</head>
+<body>
+
+    <h1>A Combinators is something that explains the relationship
+     between the selectors.</h1>
+     <h2>There are four different combinators in CSS: </h2>
+     <h3>1.Descendant selectors (space)</h3>
+     <h3>2.Child selector (>)</h3>
+     <h3>3.Adjacent sibiling selector(+)</h3>
+     <h3>4.General sibiling selector (~)</h3>
+
+     <h1>Descendand selectors</h1>
+     The descendant selectors matches all elements that are descendant of a specified element.
+
+     <h2>Adjacent sibiling selector</h2>
+     <p>The + selectors is used to select an element that is directly after another specific element. </p>
+
+     <h3>Child selector</h3>
+     <p>The child selector select all elements that are the children of a specified element.</p>
+
+     <h4>General sibiling selector</h4>
+     <p>The general sibiling selector selects all elements that are next sibilings of a specified element.</p>
+
+     <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, molestias?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit alias impedit quis vel nihil veniam.</p>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, assumenda et. Esse accusantium vitae consectetur ad, tempora dolores.</p>
+        </section>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quo non veritatis placeat fugit sed beatae architecto qui ipsam culpa!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas alias neque, ipsum amet tempore sed dolor, placeat quibusdam reprehenderit rerum, praesentium aliquam quasi ratione perferendis.</p>
+    </div>
+     
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium magni ducimus dolor. Suscipit facere consectetur dicta, a totam, accusamus eveniet soluta, voluptatum nostrum cum aspernatur. Hic, autem aspernatur!</p>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, voluptate. At debitis esse eum dolor quas nemo illum, eaque animi laborum nobis, deserunt ad velit sunt, doloremque magnam vel ipsum?</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi unde nesciunt maiores deserunt distinctio, laboriosam itaque labore vel error odio temporibus cum ab repellendus dicta! Neque debitis quia necessitatibus quae nam excepturi assumenda cumque adipisci.</p>
+     
+</body>
+</html>
