@@ -240,9 +240,10 @@ input:hover{
 
 
 
-.card-img-top{
-    /* width: 300px; */
-    /* -ms-zoom: 20px; */
+#zoom:hover{
+    zoom: 20%;
+    
+    
     
 }
 
@@ -266,6 +267,10 @@ input:hover{
     border: 1px solid rgb(128,193,186);
     padding: 13px 15px;
     border-radius: 30px;
+}
+
+#durga:hover{
+    color: white;
 }
 
 /* input{
@@ -296,6 +301,18 @@ input:hover{
     padding: 8px 10px;
     border-radius: 30px;
     margin-bottom: 20px;
+}
+
+.card-title::after{
+    content: '';
+    display: block;
+    bottom: -20px;
+    width: 65px;
+    height: 4px;
+    background-color: #008174;
+    /* padding: 10px; */
+    position: fixed
+    margin: 15px auto;
 }
 
 
