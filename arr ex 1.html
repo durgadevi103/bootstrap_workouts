@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="type something...">
+    <input type="button" value="add"
+    onclick="addItem()">
+
+</body>
+<script>
+    let list = []
+    function addItem(){
+        let value = document.getElementById("itemTxt").value
+        let arr = [value]
+        list = arr.concat(list)
+        list = [...list,value]
+        console.log(list)
+
+
+
+        }
+
+
+</script>
+</html>
